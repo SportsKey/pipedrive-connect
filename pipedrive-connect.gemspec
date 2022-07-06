@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = "Get on Board"
   spec.email         = "team@getonbrd.com"
 
-  spec.summary   = "Ruby binding for the pipedrive API."
+  spec.summary       = "Ruby binding for the pipedrive API."
   spec.homepage      = "https://github.com/getonbrd/pipedrive-connect"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # dependencies
-  spec.add_dependency("faraday", "~> 1.3")
+  spec.add_dependency("faraday", ">= 1.3")
 end
